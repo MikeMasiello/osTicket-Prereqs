@@ -25,9 +25,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - OS Ticket Virtual Machine Creation
 - Install / Enable IIS in Windows
-- Install  web platform installer & MySQL
-- Item 4
-- Item 5
+- Install  web platform installer
+- Install MySQL
+- Install c++ Redistributable
+- Configure permissions and install OS Ticket
 
 <h2>Installation Steps</h2>
 
