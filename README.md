@@ -31,7 +31,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Configure permissions and install OS Ticket
 
 <h2>Installation Steps</h2>
-![Create VM OS Ticket](https://github.com/Mikemasie/osticket-prereqs/assets/166944942/841f784e-cd8d-485e-9b3d-b5610bf8ba97)
+![image](https://github.com/Mikemasie/osticket-prereqs/assets/166944942/c23f2635-aa71-4fa5-a544-f7b1ed548b75)
+
 
 <p>
 </p>
