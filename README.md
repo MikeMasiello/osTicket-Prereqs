@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-Create Resource Group, Setup a virtual machine in Azure, Virtual Network, and Subnet.  Create virtual machine on Windows 10 and deploy. 
+Create Resource Group/Storage Account, Setup a virtual machine in Azure, Virtual Network, and Subnet.  Create virtual machine on Windows 10 and deploy. 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Install IIS"/>
 </p>
 <p>
