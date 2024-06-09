@@ -31,6 +31,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Configure permissions and install OS Ticket
 
 <h2>Installation Steps</h2>
+<img src="https://i.imgur.com/4If8Vds.png" height="80%" width="80%" alt="OS Ticket Resource Group Creation"/>
+
 <img src="https://i.imgur.com/8oIhN8H.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
 
 
@@ -38,10 +40,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-Setup a virtual machine in Azure, Create Resource Group, Virtual Network, and Subnet.  Create virtual machine on Windows 10 and deploy. 
+Create Resource Group, Setup a virtual machine in Azure, Virtual Network, and Subnet.  Create virtual machine on Windows 10 and deploy. 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Install IIS"/>
 </p>
 <p>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
