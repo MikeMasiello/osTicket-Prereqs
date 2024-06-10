@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Configure permissions and install OS Ticket
 
 <h2>Installation Steps</h2>
-Create Resource Group/Storage Account, Setup a virtual machine in Azure, Virtual Network, and Subnet.  Create virtual machine on Windows 10 and deploy.
+Create Resource Group/Storage Account, Setup a virtual machine in Azure, Virtual Network, and Subnet.  Create virtual machine on Windows 10 and Linux (Ubuntu)- deploy. 
 
 
 <img src="https://i.imgur.com/4If8Vds.png" height="80%" width="80%" alt="OS Ticket Resource Group Creation"/>
