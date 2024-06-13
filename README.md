@@ -36,7 +36,7 @@ Create Resource Group/Storage Account, Setup a virtual machine in Azure, Virtual
 
 <img src="https://i.imgur.com/4If8Vds.png" height="80%" width="80%" alt="OS Ticket Resource Group Creation"/>
 <img src="https://i.imgur.com/o9HJA3f.png" height="80%" width="80%" alt="OS Ticket Storage Account Creation"/>
-<img src="https://i.imgur.com/CtOLJuo.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
+<img src="https://i.imgur.com/XxfPOxj.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
 
 
 
