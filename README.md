@@ -32,12 +32,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <img src="https://i.imgur.com/JcX0ZvW.png" height="80%" width="80%" alt="OS Ticket Resource Group Creation"/>
-
-<img src="https://i.imgur.com/XxfPOxj.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
-
+</p>
+<p>
 Create a Resource Group
-Create a Windows 10 Virtual Machine (VM) with 1 Virtual CPU
-When creating the VM, allow it to create a new Virtual Network (Vnet)
+<img src="https://i.imgur.com/XxfPOxj.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
+</p>
+<p>
+
+Create a Windows 10 Virtual Machine (VM) with 1 Virtual CPU. When creating the VM, allow it to create a new Virtual Network (Vnet)
 
 
   
