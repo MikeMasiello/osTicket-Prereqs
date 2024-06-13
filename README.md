@@ -7,9 +7,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -38,6 +36,9 @@ Create Resource Group/Storage Account, Setup a virtual machine in Azure, Virtual
 
 <img src="https://i.imgur.com/XxfPOxj.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
 
+Create a Resource Group
+Create a Windows 10 Virtual Machine (VM) with 1 Virtual CPU
+When creating the VM, allow it to create a new Virtual Network (Vnet)
 
 
   
