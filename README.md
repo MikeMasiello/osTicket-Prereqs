@@ -48,7 +48,15 @@ Create a Windows 10 Virtual Machine (VM) with 1 Virtual CPU. When creating the V
 <p>
 <img src="https://i.imgur.com/0DCZvHu.png" height="80%" width="80%" alt="Install IIS"/>
   
-Install Internet Information Services (IIS) on VM using Remote Desktop.
+Install / Enable IIS in Windows WITH
+CGI and Common HTTP Features
+World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features
+AND IIS Management Console
+Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
+
 
 </p>
 <br />
