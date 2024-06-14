@@ -46,6 +46,8 @@ Create a Windows 10 Virtual Machine (VM) with 1 Virtual CPU. When creating the V
 <img src="https://i.imgur.com/iILGtnJ.png" height="80%" width="80%" alt="Install IIS"/>
 </p>
 <p>
+<img src="https://i.imgur.com/0DCZvHu.png" height="80%" width="80%" alt="Install IIS"/>
+  
 Install Internet Information Services (IIS) on VM using Remote Desktop.
 
 </p>
