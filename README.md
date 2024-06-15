@@ -72,16 +72,13 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Install MYSQL"/>
-</p>
-<p>
-Add Comments
-</p>
-<br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Install C++"/>
-</p>
-<p>
-Add Comments
+<img src="https://i.imgur.com/3MrxnWG.png" height="80%" width="80%" alt="register PHP "/>
+Open IIS as an Admin
+
+Register PHP from within IIS
+
+Reload IIS (Open IIS, Stop and Start the server)
+
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
 </p>
