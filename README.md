@@ -80,7 +80,7 @@ Register PHP from within IIS
 Reload IIS (Open IIS, Stop and Start the server)
 
 
-<img src="https://i.imgur.com/LckvGmM.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
+<img src="https://i.imgur.com/ntv2wQp.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
 </p>
 <p>
 Install osTicket v1.15.8
@@ -88,8 +88,16 @@ Download osTicket from the Installation Files Folder
 Extract and copy “upload” folder to c:\inetpub\wwwroot
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
-Reload IIS (Open IIS, Stop and Start the server)
-
+Reload IIS 
+(Open IIS, Stop and Start the server)
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
+Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh the osTicket site in your browse, observe the changes
 
