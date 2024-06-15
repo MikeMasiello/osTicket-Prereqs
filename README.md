@@ -127,7 +127,7 @@ Connect to the session
 Create a database called “osTicket”
 </p>
 <p>
-<img src="https://i.imgur.com/u5rZPl8.png" height="80%" width="80%" alt="Install Heidi SQL "/>
+<img src="https://i.imgur.com/u5rZPl8.png" height="80%" width="80%" alt="Install OSTicket "/>
 </p>
 <p>
 Continue Setting up osticket in the browser
@@ -135,4 +135,11 @@ MySQL Database: osTicket
 MySQL Username: root
 MySQL Password: Password1
 Click “Install Now!”
-
+</p>
+<p>
+<img src="https://i.imgur.com/IeDmuTt.png" height="80%" width="80%" alt="Install OSTicket "/>
+</p>
+<p>	
+Clean up
+Delete: C:\inetpub\wwwroot\osTicket\setup
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
