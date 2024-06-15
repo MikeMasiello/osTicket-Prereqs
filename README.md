@@ -101,3 +101,12 @@ Enable: php_intl.dll
 Enable: php_opcache.dll
 Refresh the osTicket site in your browse, observe the changes
 
+<img src="https://i.imgur.com/BWU2e2k.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
+</p>
+<p>
+
+<img src="https://i.imgur.com/kgipxsi.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
+	
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
