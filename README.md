@@ -61,11 +61,13 @@ Internet Information Services -> Web Management Tools -> IIS Management Console
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Install web platform installer"/>
-</p>
-<p>
-Add comments
+From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 </p>
 <br />
 
