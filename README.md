@@ -32,17 +32,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <img src="https://i.imgur.com/JcX0ZvW.png" height="80%" width="80%" alt="OS Ticket Resource Group Creation"/>
-</p>
-<p>
-Create a Resource Group
+<h2>Create a Resource Group
+
+	
+
 <img src="https://i.imgur.com/LIFBAtX.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
 </p>
-<p>
+<h2>Create a Windows 10 Virtual Machine (VM) with 4 Virtual CPU's. When creating the VM, allow it to create a new Virtual Network (Vnet)
+</p>
 
-Create a Windows 10 Virtual Machine (VM) with 4 Virtual CPU's. When creating the VM, allow it to create a new Virtual Network (Vnet)
-
-
-  
 <img src="https://i.imgur.com/iILGtnJ.png" height="80%" width="80%" alt="Install IIS"/>
 </p>
 <p>
@@ -56,8 +54,6 @@ World Wide Web Services -> Application Development Features ->
 AND IIS Management Console
 Internet Information Services -> Web Management Tools -> IIS Management Console
 	[X] IIS Management Console
-
-
 </p>
 <br />
 
@@ -66,13 +62,12 @@ From the Installation Files, download and install PHP Manager for IIS (PHPManage
 From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 Create the directory C:\PHP
-
 From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 </p>
 <br />
 
-<p>
 <img src="https://i.imgur.com/3MrxnWG.png" height="80%" width="80%" alt="register PHP "/>
+
 Open IIS as an Admin
 
 Register PHP from within IIS
@@ -87,6 +82,7 @@ Install osTicket v1.15.8
 Download osTicket from the Installation Files Folder
 Extract and copy “upload” folder to c:\inetpub\wwwroot
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
 
 Reload IIS 
 (Open IIS, Stop and Start the server)
@@ -114,14 +110,16 @@ New Permissions -> Everyone -> All
 <img src="https://i.imgur.com/goQq97z.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
 </p>
 <p>
+
 Continue Setting up osTicket in the browser (click Continue)
 Name Helpdesk
 Default email (receives email from customers)
 
 <img src="https://i.imgur.com/SSsZNjJ.png" height="80%" width="80%" alt="Install Heidi SQL "/>
+
 <img src="https://i.imgur.com/27mNbmT.png" height="80%" width="80%" alt="Install Heidi SQL "/>
-From the Installation Files, download and install HeidiSQL.
-Open Heidi SQL
+
+From the Installation Files, download and install HeidiSQL, mOpen Heidi SQL
 Create a new session, root/Password1
 Connect to the session
 Create a database called “osTicket”
@@ -148,4 +146,4 @@ Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-conf
 <img src="https://i.imgur.com/5gT24ve.png" height="80%" width="80%" alt="Install OSTicket Completed "/>	
 </p>
 <p>
-OS Ticket Installation Complete!
+<h2>OS Ticket Installation Complete!
