@@ -48,34 +48,29 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 <img src="https://i.imgur.com/2icN8RH.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
 
 3. Once you have connected to your virtual machine, go to control panel.  From control panel open up programs. Select, Turn Windows features on and off.
-   
-
 <img src="https://i.imgur.com/71kXs7z.png" height="50%" width="50%" alt="Control Panel"/>
+<img src="https://i.imgur.com/r02LyEz.png" height="50%" width="50%" alt="Control Panel"/>  
+
+
   
 4. Install/enable IIS in Windows with CGI and Common HTTP Features
    * World Wide Web Services-> Application Development Features-> [X] CGI [x] Common HTTP Features
+   * NOTE: Make sure all Common HTTP Features ae checked. 
 <img src="https://i.imgur.com/6iKiZcW.png" height="50%" width="50%" alt="Install IIS features"/>
     
 </p>
-<p>
-<img src="https://i.imgur.com/0DCZvHu.png" height="80%" width="80%" alt="Install IIS"/>
+To verify that IIS is installed/enabled go to a browser of your choice and search for 127.0.0.1, it should look something like this. 
+<img src="https://i.imgur.com/0DCZvHu.png" height="50%" width="50%" alt="Install IIS"/>
   
-Install / Enable IIS in Windows WITH
-CGI and Common HTTP Features
-World Wide Web Services -> Application Development Features ->
-[X] CGI
-[X] Common HTTP Features
-AND IIS Management Console
-Internet Information Services -> Web Management Tools -> IIS Management Console
-	[X] IIS Management Console
+
 </p>
 <br />
 
-From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+5. Now that IIS is enabled, from the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
-From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+6. From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-Create the directory C:\PHP
+7. Create a folder in the C drive called PHP, directory C:\PHP
 From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 </p>
 <br />
