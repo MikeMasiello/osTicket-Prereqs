@@ -83,11 +83,13 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 
 Make the new root password: Password1
 
+<img src="https://i.imgur.com/7VzSMlx.png" height="50%" width="50%" alt="register PHP "/>
+<img src="https://i.imgur.com/82phKla.png" height="50%" width="50%" alt="register PHP "/
+
+10. Now that the files are downloaded and installed search for IIS in the windows search bar. Open IIS as an administrator. The program should look like this.
 <img src="https://i.imgur.com/3MrxnWG.png" height="50%" width="50%" alt="register PHP "/>
 
-Open IIS as an Admin
-
-Register PHP from within IIS
+11. Register PHP from within IIS. Click on PHP Manager
 
 Reload IIS (Open IIS, Stop and Start the server)
 
