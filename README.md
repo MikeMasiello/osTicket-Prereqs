@@ -97,7 +97,14 @@ Register new PHP version.
 
 <img src="https://i.imgur.com/AfmdyE9.png" height="50%" width="50%" alt="register PHP "/>
 
+Provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
+
+<img src="https://i.imgur.com/pT4jVrH.png" height="50%" width="50%" alt="register PHP "/>
+
 Reload IIS (Open IIS, Stop and Start the server)
+
+<img src="https://i.imgur.com/PvJvWQe.png" height="50%" width="50%" alt="register PHP "/>
+
 
 
 <img src="https://i.imgur.com/ntv2wQp.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
