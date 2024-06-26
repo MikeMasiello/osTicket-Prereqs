@@ -74,6 +74,7 @@ To verify that IIS is installed/enabled go to a browser of your choice and searc
 From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 </p>
 <br />
+8. Once you have downloaded and extracted the zip file ino the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
 
 <img src="https://i.imgur.com/3MrxnWG.png" height="80%" width="80%" alt="register PHP "/>
 
