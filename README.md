@@ -21,24 +21,28 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 
 <h2>List of Prerequisites</h2>
 
-- OS Ticket Virtual Machine Creation
-- Install / Enable IIS in Windows
-- Install  web platform installer
-- Install MySQL
-- Install c++ Redistributable
-- Configure permissions and install OS Ticket
+- Azure Virtual Machine
+- Interet Information Services (IIS)
+- PHP Manager
+- Rewrite Module
+- VC Redist
+- MySQL
+- Heidi SQL
+- osTicket v1.15.8
+- Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Installation Steps</h2> 
+1. Create a virtual machine using the Azure Portal, https://portal.azure.com/.  Setup your virtual machine with Windows 10 Pro, version 22H2.  Create a virtual machine with at least 2 vcpus and 16 GBS of memory.
+</p>
+2. After the virtual machine is created, connect to it by using the public IP address the vm is setup with.  Use your Remote Desktop app to connect to the VM. 
+</p>
 
 
-<img src="https://i.imgur.com/JcX0ZvW.png" height="80%" width="80%" alt="OS Ticket Resource Group Creation"/>
-<h2>Create a Resource Group
 
 	
 
 <img src="https://i.imgur.com/LIFBAtX.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
-</p>
-<h2>Create a Windows 10 Virtual Machine (VM) with 4 Virtual CPU's. When creating the VM, allow it to create a new Virtual Network (Vnet)
+
 </p>
 
 <img src="https://i.imgur.com/iILGtnJ.png" height="80%" width="80%" alt="Install IIS"/>
