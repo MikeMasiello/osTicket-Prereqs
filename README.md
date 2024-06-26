@@ -158,8 +158,13 @@ Click Add
 Select Principal
 <p>	
 <img src="https://i.imgur.com/hleshE5.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
-
 	
+Type "Everyone" in the box
+	
+<img src="https://i.imgur.com/JQUfl2j.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
+Check "Full Control" and all other boxes. 
+<img src="https://i.imgur.com/sxIQRff.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
+
 Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
 New Permissions -> Everyone -> All
