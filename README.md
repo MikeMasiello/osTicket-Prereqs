@@ -32,7 +32,8 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 - Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Installation Steps</h2> 
-1. Create a virtual machine using the Azure Portal, https://portal.azure.com/.  Setup your virtual machine with Windows 10 Pro, version 22H2.  Create a virtual machine with at least 2 vcpus and 16 GBS of memory.
+1. Create a virtual machine using the Azure Portal, https://portal.azure.com/.  Setup your virtual machine with Windows 10 Pro, version 22H2.  Create a virtual machine with at least 2 vcpus and 16 GBS of 
+   memory.
 </p>
 2. After the virtual machine is created, connect to it by using the public IP address the vm is setup with.  Use your Remote Desktop app to connect to the VM. 
 </p>
@@ -41,10 +42,10 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 
 	
 
-<img src="https://i.imgur.com/LIFBAtX.png" height="80%" width="80%" alt="OS Ticket VM Creation"/>
-
+<img src="https://i.imgur.com/WJxTlmA.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
 </p>
 
+<img src="https://i.imgur.com/TR3bbWl.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
 <img src="https://i.imgur.com/iILGtnJ.png" height="80%" width="80%" alt="Install IIS"/>
 </p>
 <p>
