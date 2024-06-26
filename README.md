@@ -76,7 +76,7 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 <br />
 
 <img src="https://i.imgur.com/UsQEt9Y.png" height="50%" width="50%" alt="register PHP "/>
-
+</p>
 8. Once you have downloaded and extracted the zip file ino the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 </p>
 9. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
@@ -84,12 +84,18 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 Make the new root password: Password1
 
 <img src="https://i.imgur.com/7VzSMlx.png" height="50%" width="50%" alt="register PHP "/>
-<img src="https://i.imgur.com/82phKla.png" height="50%" width="50%" alt="register PHP "/
+<img src="https://i.imgur.com/82phKla.png" height="50%" width="50%" alt="register PHP "/>
 </p>
 10. Now that the files are downloaded and installed search for IIS in the windows search bar. Open IIS as an administrator. The program should look like this.
 <img src="https://i.imgur.com/3MrxnWG.png" height="50%" width="50%" alt="register PHP "/>
 
 11. Register PHP from within IIS. Click on PHP Manager
+
+<img src="https://i.imgur.com/QFEpNQY.png" height="50%" width="50%" alt="register PHP "/>
+
+Register new PHP version.
+
+<img src="https://i.imgur.com/AfmdyE9.png" height="50%" width="50%" alt="register PHP "/>
 
 Reload IIS (Open IIS, Stop and Start the server)
 
