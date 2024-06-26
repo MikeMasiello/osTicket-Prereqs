@@ -1,3 +1,4 @@
+
 # osticket-prereqs
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
@@ -164,22 +165,24 @@ Type "Everyone" in the box
 <img src="https://i.imgur.com/JQUfl2j.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
 Check "Full Control" and all other boxes. 
 <img src="https://i.imgur.com/sxIQRff.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
+Click "Apply" and "Ok"
+<img src="https://i.imgur.com/zKW9e0M.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
 
-Assign Permissions: ost-config.php
-Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
-
-<img src="https://i.imgur.com/goQq97z.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
+<img src="https://i.imgur.com/goQq97z.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
 </p>
 <p>
 
-Continue Setting up osTicket in the browser (click Continue)
+Continue to setup osTicket in the browser. Click Continue on the osTicket browser page. Fill out the page as required except the Database Settings at the bottom of the page. We will get to that later.
+
+We will want to download and install HeidiSQL from the Installation Files.
+<img src="https://i.imgur.com/hV8elrb.png" height="50%" width="50%" alt="Install Heidi SQL "/>
+
 Name Helpdesk
 Default email (receives email from customers)
 
-<img src="https://i.imgur.com/SSsZNjJ.png" height="80%" width="80%" alt="Install Heidi SQL "/>
+<img src="https://i.imgur.com/SSsZNjJ.png" height="50%" width="50%" alt="Install Heidi SQL "/>
 
-<img src="https://i.imgur.com/27mNbmT.png" height="80%" width="80%" alt="Install Heidi SQL "/>
+<img src="https://i.imgur.com/27mNbmT.png" height="50%" width="50%" alt="Install Heidi SQL "/>
 
 From the Installation Files, download and install HeidiSQL, mOpen Heidi SQL
 Create a new session, root/Password1
@@ -187,7 +190,7 @@ Connect to the session
 Create a database called “osTicket”
 </p>
 <p>
-<img src="https://i.imgur.com/u5rZPl8.png" height="80%" width="80%" alt="Install OSTicket "/>
+<img src="https://i.imgur.com/u5rZPl8.png" height="50%" width="50%" alt="Install OSTicket "/>
 </p>
 <p>
 Continue Setting up osticket in the browser
@@ -197,7 +200,7 @@ MySQL Password: Password1
 Click “Install Now!”
 </p>
 <p>
-<img src="https://i.imgur.com/IeDmuTt.png" height="80%" width="80%" alt="Install OSTicket cleanup "/>
+<img src="https://i.imgur.com/IeDmuTt.png" height="50%" width="50%" alt="Install OSTicket cleanup "/>
 </p>
 <p>	
 Clean up
@@ -205,7 +208,7 @@ Delete: C:\inetpub\wwwroot\osTicket\setup
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <p>
-<img src="https://i.imgur.com/5gT24ve.png" height="80%" width="80%" alt="Install OSTicket Completed "/>	
+<img src="https://i.imgur.com/5gT24ve.png" height="50%" width="50%" alt="Install OSTicket Completed "/>	
 </p>
 <p>
 <h2>OS Ticket Installation Complete!
