@@ -140,12 +140,24 @@ Click “Enable or disable an extension”
 Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
-Refresh the osTicket site in your browse, observe the changes
 
-<img src="https://i.imgur.com/BWU2e2k.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
+<img src="https://i.imgur.com/jqXym3Q.png" height="50%" width="50%" alt="register PHP "/>
+
+14. Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+We are going to rename the ost-sampleconfig.php to ost-config.php
+Refresh the osTicket site in your browse, observe the changes
+Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
+
+Now we will add new permissions.
+Click Add
+
+<img src="https://i.imgur.com/0XLmGXd.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
 </p>
 <p>
-<img src="https://i.imgur.com/kgipxsi.png" height="80%" width="80%" alt="Configure Permissions Install OS Ticket "/>
+Select Principal
+<p>	
+<img src="https://i.imgur.com/hleshE5.png" height="50%" width="50%" alt="Configure Permissions Install OS Ticket "/>
 
 	
 Assign Permissions: ost-config.php
