@@ -134,6 +134,9 @@ Double-click PHP Manager
 
 
 Click “Enable or disable an extension”
+<p>
+<img src="https://i.imgur.com/PxeTVhY.png" height="50%" width="50%" alt="register PHP "/>
+
 Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
