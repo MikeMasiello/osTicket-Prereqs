@@ -45,8 +45,17 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 <img src="https://i.imgur.com/WJxTlmA.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
 </p>
 
-<img src="https://i.imgur.com/TR3bbWl.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
-<img src="https://i.imgur.com/iILGtnJ.png" height="80%" width="80%" alt="Install IIS"/>
+<img src="https://i.imgur.com/2icN8RH.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
+
+3. Once you have connected to your virtual machine, go to control panel.  From control panel open up programs. Select, Turn Windows features on and off.
+   
+
+<img src="https://i.imgur.com/71kXs7z.png" height="50%" width="50%" alt="Control Panel"/>
+  
+4. Install/enable IIS in Windows with CGI and Common HTTP Features
+   * World Wide Web Services-> Application Development Features-> [X] CGI [x] Common HTTP Features
+<img src="https://i.imgur.com/6iKiZcW.png" height="50%" width="50%" alt="Install IIS features"/>
+    
 </p>
 <p>
 <img src="https://i.imgur.com/0DCZvHu.png" height="80%" width="80%" alt="Install IIS"/>
