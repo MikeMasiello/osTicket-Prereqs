@@ -33,10 +33,10 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 - Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Installation Steps</h2> 
-1. Create a virtual machine using the Azure Portal, https://portal.azure.com/.  Setup your virtual machine with Windows 10 Pro, version 22H2.  Create a virtual machine with at least 2 vcpus and 16 GBS of 
+1.) Create a virtual machine using the Azure Portal, https://portal.azure.com/.  Setup your virtual machine with Windows 10 Pro, version 22H2.  Create a virtual machine with at least 2 vcpus and 16 GBS of 
    memory.
 </p>
-2. After the virtual machine is created, connect to it by using the public IP address the vm is setup with.  Use your Remote Desktop app to connect to the VM. 
+2.) After the virtual machine is created, connect to it by using the public IP address the vm is setup with.  Use your Remote Desktop app to connect to the VM. 
 </p>
 
 
@@ -48,13 +48,13 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 
 <img src="https://i.imgur.com/2icN8RH.png" height="50%" width="50%" alt="OS Ticket VM Creation"/>
 
-3. Once you have connected to your virtual machine, go to control panel.  From control panel open up programs. Select, Turn Windows features on and off.
+3.) Once you have connected to your virtual machine, go to control panel.  From control panel open up programs. Select, Turn Windows features on and off.
 <img src="https://i.imgur.com/71kXs7z.png" height="50%" width="50%" alt="Control Panel"/>
 <img src="https://i.imgur.com/r02LyEz.png" height="50%" width="50%" alt="Control Panel"/>  
 
 
   
-4. Install/enable IIS in Windows with CGI and Common HTTP Features
+4.) Install/enable IIS in Windows with CGI and Common HTTP Features
    * World Wide Web Services-> Application Development Features-> [X] CGI [x] Common HTTP Features
    * NOTE: Make sure all Common HTTP Features ae checked. 
 <img src="https://i.imgur.com/6iKiZcW.png" height="50%" width="50%" alt="Install IIS features"/>
@@ -67,30 +67,30 @@ To verify that IIS is installed/enabled go to a browser of your choice and searc
 </p>
 <br />
 
-5. Now that IIS is enabled, from the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+5.) Now that IIS is enabled, from the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
-6. From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+6.) From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-7. Create a folder in the C drive called PHP, directory C:\PHP
+7.) Create a folder in the C drive called PHP, directory C:\PHP
 From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 </p>
 <br />
 
 <img src="https://i.imgur.com/UsQEt9Y.png" height="50%" width="50%" alt="register PHP "/>
 </p>
-8. Once you have downloaded and extracted the zip file ino the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
+8.) Once you have downloaded and extracted the zip file ino the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
 </p>
-9. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
+9.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
 
 Make the new root password: Password1
 
 <img src="https://i.imgur.com/7VzSMlx.png" height="50%" width="50%" alt="register PHP "/>
 <img src="https://i.imgur.com/82phKla.png" height="50%" width="50%" alt="register PHP "/>
 </p>
-10. Now that the files are downloaded and installed search for IIS in the windows search bar. Open IIS as an administrator. The program should look like this.
+10.) Now that the files are downloaded and installed search for IIS in the windows search bar. Open IIS as an administrator. The program should look like this.
 <img src="https://i.imgur.com/3MrxnWG.png" height="50%" width="50%" alt="register PHP "/>
 
-11. Register PHP from within IIS. Click on PHP Manager
+11.) Register PHP from within IIS. Click on PHP Manager
 
 <img src="https://i.imgur.com/QFEpNQY.png" height="50%" width="50%" alt="register PHP "/>
 
@@ -108,7 +108,7 @@ Reload IIS (Open IIS, Stop and Start the server)
 
 </p>
 <p>
-12. Install osTicket v1.15.8
+12.) Install osTicket v1.15.8
 Download osTicket from the Installation Files Folder
 Extract and copy “upload” folder to c:\inetpub\wwwroot
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
@@ -118,7 +118,7 @@ Reload IIS
 (Open IIS, Stop and Start the server)
 
 
-13. Go to sites -> Default -> osTicket
+13.) Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
 
 <img src="https://i.imgur.com/jcKTKPB.png" height="50%" width="50%" alt="register PHP "/>
@@ -144,7 +144,7 @@ Enable: php_opcache.dll
 
 <img src="https://i.imgur.com/jqXym3Q.png" height="50%" width="50%" alt="register PHP "/>
 
-14. Once those extensions enabled in IIS, rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+14.) Once those extensions enabled in IIS, rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 
 Rename the ost-sampleconfig.php to ost-config.php
 Refresh the osTicket site in your browse, observe the changes
@@ -174,7 +174,7 @@ Click "Apply" and "Ok"
 
 Continue to setup osTicket in the browser. Click Continue on the osTicket browser page. Fill out the page as required except the Database Settings at the bottom of the page. We will get to that later.
 
-Download and install HeidiSQL from the Installation Files.
+15.) Download and install HeidiSQL from the Installation Files.
 
 <img src="https://i.imgur.com/hV8elrb.png" height="50%" width="50%" alt="Install Heidi SQL "/>
 <p>
@@ -197,7 +197,7 @@ Create a new database within HeidiSQL. In Heidi right click on the left side whe
 <img src="https://i.imgur.com/EcuwFFu.png" height="50%" width="50%" alt="Install OSTicket "/>
 
 </p>
-The last step is to do some clean up.  Delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
+16.) The last step is to do some clean up.  Delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
 </p>
 Set the permissions back to "Read" only in the ost-config.php file
 <img src="https://i.imgur.com/fZlm4je.png" height="50%" width="50%" alt="Install OSTicket "/>
@@ -207,7 +207,7 @@ Set the permissions back to "Read" only in the ost-config.php file
 <p>
 </p>
 
-Continue Setting up osticket in the browser
+17.) Continue Setting up osticket in the browser
 MySQL Database: osTicket
 MySQL Username: root
 MySQL Password: Password1
