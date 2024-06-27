@@ -213,10 +213,11 @@ MySQL Username: root
 MySQL Password: Password1
 Click “Install Now!”
 
+The last step after Installation is to login to osTicket on the browser.
 
 </p>
 <p>
-<img src="https://i.imgur.com/5gT24ve.png" height="50%" width="50%" alt="Install OSTicket Completed "/>	
+<img src="https://i.imgur.com/hXWtxa2.png" height="50%" width="50%" alt="Install OSTicket Completed "/>	
 </p>
 <p>
 <h2>OS Ticket Installation Complete!
