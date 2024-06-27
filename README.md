@@ -144,11 +144,11 @@ Enable: php_opcache.dll
 
 <img src="https://i.imgur.com/jqXym3Q.png" height="50%" width="50%" alt="register PHP "/>
 
-14.) Once those extensions enabled in IIS, rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+14.) Once those extensions are enabled in IIS, rename one of the files in the osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 
 Rename the ost-sampleconfig.php to ost-config.php
 Refresh the osTicket site in your browse, observe the changes
-Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
+After the files have been renamed, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
 
 Add new permissions.
 Click Add
@@ -197,7 +197,7 @@ Create a new database within HeidiSQL. In Heidi right click on the left side whe
 <img src="https://i.imgur.com/EcuwFFu.png" height="50%" width="50%" alt="Install OSTicket "/>
 
 </p>
-16.) The last step is to do some clean up.  Delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
+16.) The last step is to do some clean up.  Delete the setup folder in our system. Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
 </p>
 Set the permissions back to "Read" only in the ost-config.php file
 <img src="https://i.imgur.com/fZlm4je.png" height="50%" width="50%" alt="Install OSTicket "/>
