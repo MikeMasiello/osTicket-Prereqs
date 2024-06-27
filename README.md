@@ -144,7 +144,7 @@ Enable: php_opcache.dll
 
 <img src="https://i.imgur.com/jqXym3Q.png" height="50%" width="50%" alt="register PHP "/>
 
-14.) Once those extensions enabled in IIS, rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+14.) Once those extensions enabled in IIS, rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 
 Rename the ost-sampleconfig.php to ost-config.php
 Refresh the osTicket site in your browse, observe the changes
